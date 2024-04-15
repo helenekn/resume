@@ -7,19 +7,18 @@
 html,
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #e5e5e5;
-  color: #1e2939;
+  background-color: #f4ebdb;
+  color: #2c4a52;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
-  height: 100vw;
+  height: 100vh;
 }
 
 a {
   text-decoration: none;
 }
 
-/* maine styles */
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,15 +31,14 @@ a {
   width: 1100px;
 }
 .main__content {
-  background-color: #ffffff;
   -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 50px 90px;
+  padding: 93px 90px;
 }
 .main__column {
-  background-color: #1e2939;
-  padding-top: 40px;
-  width: 370px;
+  background-color: #537072;
+  padding-top: 70px;
+  width: 1000px;
 }
 
 .title {
@@ -50,9 +48,8 @@ a {
   margin: 45px 0 15px;
 }
 
-/* about styles */
 .about {
-  margin-bottom: 45px;
+  margin-bottom: 80px;
 }
 .about__name {
   font-style: normal;
@@ -70,10 +67,9 @@ a {
 .about__description {
   font-family: "Montserrat";
   line-height: 24px;
-  color: #595959;
+  color: #537072;
 }
 
-/* projects styles */
 .project {
   margin-bottom: 30px;
 }
@@ -85,20 +81,19 @@ a {
 .item {
   font-weight: 700;
   line-height: 1.7;
-  color: #595959;
+  color: #537072;
 }
 .item__link {
   line-height: 1.7;
-  color: #595959;
+  color: #537072;
   margin-left: 10px;
 }
 
 .span-bracket {
   line-height: 1.7;
-  color: #595959;
+  color: #537072;
 }
 
-/* work styles */
 .work__list {
   padding: 0;
   margin-left: 15px;
@@ -114,7 +109,7 @@ a {
 .period {
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #8e9b97;
   margin-bottom: 10px;
 }
 
@@ -122,16 +117,15 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
-  color: #fb6d3a;
+  color: #537072;
   padding-left: 10px;
 }
 
 .work-list__item {
   line-height: 1.5;
-  color: #595959;
+  color: #537072;
 }
 
-/* education styles */
 .direction {
   font-weight: 700;
   line-height: 17px;
@@ -155,54 +149,51 @@ a {
 .contacts__title,
 .tech-skills__title,
 .soft-skills__title {
-  color: #ffffff;
+  color: #f4ebdb;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
   margin-bottom: 10px;
 }
 
-.contacts {
-  margin-bottom: 30px;
-}
-
+.contacts,
 .tech-skills {
-  margin-bottom: 45;
+  margin: 50px;
 }
 
 .contact-type {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.7;
-  color: #ffffff;
+  color: #f4ebdb;
   margin-right: 10px;
 }
 
 .contact-link {
   display: block;
-  line-height: 1.7;
-  color: #f1e8e8;
+  line-height: 2.4;
+  color: #f4ebdb;
 }
 
 .tech-skills-list,
 .soft-skills-list {
-  color: #ffffff;
+  color: #f4ebdb;
   padding-left: 0;
   margin-left: 18px;
 }
 
 .tech-skills-item,
 .soft-skills-item {
-  color: #fb6d3a;
+  color: #f4ebdb;
 }
 
 .tech-skills-text,
 .soft-skills-text {
-  color: #ffffff;
-  line-height: 1.7;
+  color: #f4ebdb;
+  line-height: 2.4;
 }
 
 .icon {
-  color: #fb6d3a;
+  color: #f4ebdb;
   margin-right: 5px;
 }/*# sourceMappingURL=main.min.css.map */
