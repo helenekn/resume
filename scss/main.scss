@@ -25,7 +25,7 @@ a {
    width: 1100px;
    &__content {
       box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-      padding: 93px 90px;
+      padding: 90px 90px;
    }
    &__column {
       background-color: #537072;
@@ -42,7 +42,7 @@ a {
 }
 
 .about {
-   margin-bottom: 80px;
+   margin-bottom: 65px;
    &__name {
       font-style: normal;
       font-weight: 700;
@@ -68,6 +68,10 @@ a {
    &__list {
       padding: 0;
       margin-left: 15px;
+      transition: all 0.8s;
+      a:hover {
+         text-decoration: underline;
+      }
    }
 }
 
@@ -169,6 +173,10 @@ a {
    display: block;
    line-height: 2.4;
    color: #f4ebdb;
+   transition: color 0.5s;
+   &:hover {
+      color: #a8a6a0;
+   }
 }
 
 .tech-skills-list,

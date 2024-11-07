@@ -33,7 +33,7 @@ a {
 .main__content {
   -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 93px 90px;
+  padding: 90px 90px;
 }
 .main__column {
   background-color: #537072;
@@ -49,7 +49,7 @@ a {
 }
 
 .about {
-  margin-bottom: 80px;
+  margin-bottom: 65px;
 }
 .about__name {
   font-style: normal;
@@ -76,6 +76,11 @@ a {
 .project__list {
   padding: 0;
   margin-left: 15px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.project__list a:hover {
+  text-decoration: underline;
 }
 
 .item {
@@ -173,6 +178,11 @@ a {
   display: block;
   line-height: 2.4;
   color: #f4ebdb;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+.contact-link:hover {
+  color: #a8a6a0;
 }
 
 .tech-skills-list,
