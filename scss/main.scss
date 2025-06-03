@@ -186,9 +186,12 @@ a {
    margin-left: 18px;
 }
 
-.tech-skills-item,
+.tech-skills-item a,
 .soft-skills-item {
    color: #f4ebdb;
+   &:hover {
+      color: #a8a6a0;
+   }
 }
 
 .tech-skills-text,
